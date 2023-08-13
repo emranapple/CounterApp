@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+button {
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #3A69D2;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+}
+
+.btn button {
+    width: 100%;
+    font-size: 24px;
+}
+
+#reset-el {
+    background-color: lightcoral;
+    color: rgb(198, 191, 191);
+}
+
+#save-el {
+    color: #45a9f0f4;
+}
